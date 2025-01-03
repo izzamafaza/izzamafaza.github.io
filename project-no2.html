@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Project Details - Portfolio Izza Mafaza</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Personal
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Updated: Nov 04 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Izza Mafaza</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Project Details</h1>
+              <p class="mb-0">Development of a Microcontroller-Based Wave Recording System for Coastal Disaster Mitigation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="current">Project Details</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#" id="service-design" class="active">Hardware Design</a>
+              <a href="#" id="service-3d">3D Design</a>
+              <a href="#" id="service-software">Software</a>
+              <a href="#" id="service-testing">Device testing</a>
+
+            </div>
+
+            <div id="title-design" class="service-title">
+              <h4>Hardware (PCB) Design</h4>
+              <p class="justify-text">The electronic PCB design of this device is created using KiCad software, featuring the ESP32 WROOM 32D microcontroller as the main system controller. The device is equipped with an RTC module to maintain accurate time synchronization, a connector for an SD card module as a data storage medium, and an I2C port used to connect the Gamicos Pressure Sensor Transmitter GPT200 for precise pressure measurement, as well as the INA219 sensor for voltage and current measurement. Additionally, a step-down MP1584 module is included to step down the input voltage to match the system's requirements.</p>
+            </div>
+            <div id="title-3d" class="service-title" style="display: none;">
+              <h4>3D Design</h4>
+              <p class="justify-text">This is a 3D design for the inner and outer casing of the device. The casing is designed to withstand prolonged exposure to seawater during wave data collection. The inner casing serves to protect and secure the board and battery in place, while the outer casing provides protection for all components from seawater.</p>
+            </div>
+            <div id="title-software" class="service-title" style="display: none;">
+              <h4>Bluetooth Setup</h4>
+              <p class="justify-text">This is the display of the Serial Bluetooth software during the device setup before operation. The available settings include: configuring the time and date, setting the data collection frequency, specifying the start time and date for data collection after the device is powered on, setting the operational and sleep duration, and naming the CSV file for saving data to the SD card.</p>
+            </div>
+            <div id="title-testing" class="service-title" style="display: none;">
+              <h4>Device testing</h4>
+              <p class="justify-text">
+                The testing process of this device is conducted through a simulation using a wave flume, where a glass tank generates waves with a height that can be adjusted by the tester. During this process, the device and sensors are tested for data accuracy, which is then verified with a standard sensor.</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <div id="content-design" class="service-content">
+              <img src="assets/img/portfolio/design-2.jpg" alt="Dashboard Design" class="img-fluid services-img">
+            </div>
+            <div id="content-3d" class="service-content" style="display: none;">
+              <img src="assets/img/portfolio/3D.jpg" alt="Product Management" class="img-fluid services-img">
+            </div>
+            <div id="content-software" class="service-content" style="display: none;">
+              <img src="assets/img/portfolio/blue-1.jpg" alt="Graphic Design" class="img-fluid services-img">
+            </div>
+            <div id="content-testing" class="service-content" style="display: none;">
+              <img src="assets/img/portfolio/testing.jpg" alt="Graphic Design" class="img-fluid services-img">
+            </div>
+
+            <h3>Development of a Microcontroller-Based Wave Recording System for Coastal Disaster Mitigation</h3>
+            <p class="justify-text">
+              This device is designed to monitor and record sea wave data in real-time, which is crucial for coastal disaster mitigation. Using a microcontroller as the main controller, the device can measure wave height, speed, and frequency along the coastline. The collected data is automatically stored on an SD card and can be analyzed to predict potential disasters, such as tsunamis or coastal flooding. The system is also equipped with a large-capacity battery to support long-term operation without frequent recharging, ensuring the device remains functional in isolated conditions or far from power sources.
+            </p>
+            <p class="justify-text">
+              This project is the second version of the previous prototype, which used Arduino Mega. The designed PCB functions as a shield for the modules used. In this version 2 prototype, additional features have been added, such as Bluetooth setup, a high data sampling frequency, and an extended battery life capable of lasting approximately 30 days with a work-and-sleep mechanism. 
+              The complete features of this device are:
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Measurement of sea wave height using a pressure sensor connected to an ESP32</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>40 Hz data sampling frequency</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Automatic data storage on an SD card for further analysis</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Device configuration via Bluetooth for easy setup using a smartphone</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>A battery system capable of supporting up to 30 days of independent operation</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>3D prototype design to ensure the device remains safe and secure in the marine environment for 30 days</span></li>
+              
+            </ul>
+            <p class="justify-text">
+              The operation of the device starts when it is powered on, and it will search for a Bluetooth connection to configure settings via Bluetooth, such as setting the time, date, start time, and CSV file name. After configuration, the device will not start measuring until the specified time, allowing researchers to deploy it into the sea. The device will begin measuring once it is in the water, and if multiple devices are used, measurements can be taken simultaneously.
+            </p>
+            <p class="justify-text">
+              The device reads data at a frequency of 40 Hz (or as set by the researcher), meaning it records 40 data points per second. This will continue until the device enters sleep mode to conserve battery. The battery used has a capacity of 27,000 mAh and a voltage of 8.2V.
+            </p>
+            <p class="justify-text">
+              The collected data is automatically saved to a 4GB SD card. After retrieval from the sea, the data can be analyzed by the researcher. With a 40 Hz sampling frequency, data errors during measurement are minimized, ensuring higher accuracy.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <p>For questions or collaborations, please feel free to reach out via email or connect with me on social media.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="mailto:izzamafaza@gmail.com"><i class="bi bi-envelope-at"></i></a>
+        <a href="https://www.instagram.com/ez.mafaza/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/izza-mafaza/"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
